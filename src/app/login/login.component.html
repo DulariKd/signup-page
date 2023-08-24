@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="split left">
+        <div class="head-bar">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <form class="form-box">
+            <div class="icon">Untitled UI</div>
+            <div class="input-box">
+                <div class="Welcome">
+                    <h1>Welcome back</h1>
+                    <label for="prh">Please enter your details.</label>
+                </div>
+
+                <div class="form-grp">
+                    <span class="email-label">Email</span><br>
+                    <input type="text" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-grp">
+                    <span class="pwrd-label">Password</span><br>
+                    <input type="password" id="password">
+                </div>
+
+                <div class="condition">
+                    <label for="box"><input type="checkbox" id="box">Remember for 30 days</label>
+                    <a href="#">Forgot password</a>
+                </div>
+
+                <button type="submit" class="button">Login</button> <br>
+                <div class="last-part">
+                    <label>Don't have an account?</label>
+                    <a routerLink="Signup">Sign up</a>
+                </div>
+            </div>
+            <label class="ui">Untitled UI 2077</label>
+        </form>
+    </div>
+
+    <div class="split right">
+        <img [src]="url" alt="colorful-photo">
+    </div>
+</div>
+
+<router-outlet></router-outlet>

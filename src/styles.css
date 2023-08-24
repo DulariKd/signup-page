@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 25px;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #BFC9CA;
+    border-radius: 8px;
+}
